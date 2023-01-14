@@ -1,9 +1,9 @@
 #Hesap Makinesi Uygulaması (Hesap Makinesi Uygulaması)
 
 class HesapMakinesi:
-    def __init__(self, sayi1, sayi2):
-        self.sayi1 = sayi1
-        self.sayi2 = sayi2
+    def __init__(self, x, y):
+        self.sayi1 = x
+        self.sayi2 = y
     def topla(self):
         return self.sayi1 + self.sayi2
     def cikar(self):
