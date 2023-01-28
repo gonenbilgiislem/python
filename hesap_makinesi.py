@@ -10,6 +10,7 @@ def carp(sayi1,sayi2):
 def bol(sayi1,sayi2):
     return sayi1 / sayi2
 
+islemler = 0
 print("Toplama işlemi için 1'e, çıkarma işlemi için 2'ye, çarpma işlemi için 3'e, bölme işlemi için 4'e basınız.")
 islem = int(input("İşlem seçiniz: "))
 
@@ -26,3 +27,4 @@ elif islem == 4:
     print(sayi1,"/",sayi2,"=", bol(sayi1,sayi2))
 else:
     print("Geçersiz işlem seçimi!")
+
