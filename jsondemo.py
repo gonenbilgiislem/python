@@ -18,3 +18,5 @@ for x in range(len(data)):
     print(data[x]['email'])
     print(data[x]['address']['street'])
     print("---------------------------------")
+
+    
