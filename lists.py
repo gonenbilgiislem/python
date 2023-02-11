@@ -43,5 +43,3 @@ sehirler.sort(reverse=True)
 print(currentframe().f_lineno, ":",sehirler)
 sehirler.clear()
 print(currentframe().f_lineno, ":",sehirler)
-
-

@@ -13,3 +13,7 @@ print(sayilar2[:,0:2])
 
 print(sayilar2[-1,:])
 print(sayilar2[:,-1])
+
+a = np.array([1, 2, 3, 4, 5, 6])
+a.shape
+(6,)

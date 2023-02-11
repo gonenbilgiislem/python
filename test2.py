@@ -1,2 +1,2 @@
-metin = "Python"
+metin = "işlembasarili"
 print(metin)
