@@ -14,12 +14,12 @@ kilo = data.Weight.values.reshape(-1,1)
 regression = LinearRegression()
 regression.fit(boy,kilo)
 
-print(regression.predict(60))
-print(regression.predict(62))
-print(regression.predict(64))
-print(regression.predict(66))
-print(regression.predict(68))
-print(regression.predict(70))
+print(regression.predict(([[70]])))
+print(regression.predict(([[80]])))
+print(regression.predict(([[90]])))
+print(regression.predict(([[100]])))
+print(regression.predict(([[110]])))
+print(regression.predict(([[120]])))
 
 print(data.columns)
 
